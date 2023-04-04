@@ -30,7 +30,7 @@
     border:0.5px solid #a958e6;
 }
 
-.blog-content{
+.blog-card-content{
     display: flex;
     flex-direction: column;
     gap: .5em;
