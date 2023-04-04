@@ -1,0 +1,26 @@
+@import "navbar.css";
+@import "blogCard.css";
+@import "subscribeForm.css";
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Purple Darker
+#391B50
+Purple Dark
+#6C3498
+Purple
+#9F4CDF
+Purple Light
+#BE85E9
+Purple Lighter
+#DCBFF3
+Purple Lightest
+#F3EAFB */
