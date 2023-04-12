@@ -2,6 +2,7 @@
 @import "blogCard.css";
 @import "subscribeForm.css";
 @import "blog.css";
+@import "authorCard.css";
 * {
         margin: 0;
       }
@@ -14,7 +15,7 @@
 .home-title{
     margin: 1em 0.1em;
 }
- 
+
 
 
 

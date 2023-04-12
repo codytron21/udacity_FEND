@@ -1,8 +1,7 @@
 .subscribe-container{
    width: 100%;
    height: 30vh;
-   display: flex;
-   margin-top: 3em;
+   display: flex;   
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -52,7 +51,7 @@
     flex-direction: column;
     align-items: center;
 }
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .subscribe-form{
         width: 40%;
         gap:0.3em;
@@ -71,4 +70,4 @@
 .subscribe-container{
   height: 40vh;
 }
-}
+} */

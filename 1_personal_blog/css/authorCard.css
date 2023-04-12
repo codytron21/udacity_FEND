@@ -1,0 +1,40 @@
+.author-card{
+    border-left:1px solid black ;
+   /* height: 100vh; */
+}
+.author-card{
+    display: grid;
+    padding: 2em;
+    grid-template-columns: 1fr 2fr;
+    gap:0.3em;
+    position: relative;
+}
+.author-img{
+        width: 8em;
+        object-fit: cover;
+        border-radius:50% ;
+        border: 5px solid black;
+}
+.author-info{
+    padding-top:2em;
+}
+.author-info h5{
+     font-size: 2em;
+}
+.author-bio{
+    padding:.5em;
+    text-align: left;
+    line-height: 1.2;
+}
+.author-social{
+    text-decoration: none;
+    padding: 2em;
+    display: flex;
+    gap:2em;
+    position: absolute;
+    top: 10em;
+    left:1em;
+}
+.author-social a{
+    color: black;
+}

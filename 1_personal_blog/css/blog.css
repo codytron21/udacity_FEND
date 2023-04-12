@@ -1,10 +1,10 @@
 .blog-container{
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:#F3EAFB ;
 }
 .blog-main{
-    flex:70%;
-    background-color:#F3EAFB ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,9 +27,20 @@
 .article-container ul li{
    padding: .8em;
 }
-
+.article-subheading{
+    font-size: 1.5em;
+}
 
 /* .blog-aside{
     background-color: #DCBFF3;
     flex:25%;
 } */
+@media screen and (max-width:900px){
+    .blog-container{
+    /* display: grid;
+    grid-template-rows:1fr 2fr;
+    background-color:#F3EAFB ; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
