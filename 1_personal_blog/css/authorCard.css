@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 2fr;
     gap:0.3em;
     position: relative;
+    background-color: rgb(182, 239, 239);
 }
 .author-img{
         width: 8em;
